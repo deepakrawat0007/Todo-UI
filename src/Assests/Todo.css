@@ -1,0 +1,72 @@
+body{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+.Wrapper{
+    background-color: orange;
+    margin-top: 5%;
+    display: flex;
+justify-content: center;
+    border: 3px solid orange;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px black;
+    width: 40vw;
+    color: ghostwhite;
+}
+input[type="text"]{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 0;
+    outline-style: none;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+.add ,.edit{
+    position: relative;
+    top: 3px;
+    width: 3vw;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 100%;
+    background-color: green;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+border: 0;    
+}
+.edit{
+    color: lightgreen;
+    background-color: white;
+    border-radius: 10;
+}
+.list-card{
+    display: flex;
+    width: 25vw;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(143, 42, 6);
+    border-radius: 10px;
+
+}
+.item{
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.rem , .ed{
+    background-color: transparent;
+    border: 0;
+    outline-style: none;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+
+}
+.ed{
+    color: lightgreen;
+}
